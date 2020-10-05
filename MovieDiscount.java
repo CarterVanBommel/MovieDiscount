@@ -30,7 +30,7 @@ public class MovieDiscount {
 
         
         // If the user is in this age range, lower price by $3
-        if (age >= 13 || age <= 65) {
+        if (age < 13 || age >= 65) {
         	ticketCost -= 3;	
         }
         
