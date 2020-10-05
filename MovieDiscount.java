@@ -1,5 +1,4 @@
 /*
- /*
  * Programmer: Carter Van Bommel
  * Date: October 5, 2020
  * Purpose: Calculates the cost of a ticket
@@ -9,6 +8,7 @@
 import java.util.Scanner;
 
 public class MovieDiscount {
+	
     public static void main (String [] args) {
     	
         // Create the input scanner
@@ -36,7 +36,7 @@ public class MovieDiscount {
         }
         
         // If the user has a ticket, lower price by $2
-        if (hasCoupon = true) {
+        if (hasCoupon == true) {
         	ticketCost -= 2;
         	System.err.println(ticketCost);
         }
