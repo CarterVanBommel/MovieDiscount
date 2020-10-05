@@ -32,13 +32,11 @@ public class MovieDiscount {
         // If the user is in this age range, lower price by $3
         if (age >= 13 || age <= 65) {
         	ticketCost -= 3;	
-        	System.err.println(ticketCost);
         }
         
         // If the user has a ticket, lower price by $2
         if (hasCoupon == true) {
         	ticketCost -= 2;
-        	System.err.println(ticketCost);
         }
         
         
