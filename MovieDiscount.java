@@ -19,7 +19,7 @@ public class MovieDiscount {
         double ticketCost = 14.50;
         
         
-        // Ask the user for the their age
+        // Ask the user for their age
         System.err.print("How old are you? ");
         int age = input.nextInt();
 
